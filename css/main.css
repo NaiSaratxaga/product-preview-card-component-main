@@ -1,0 +1,16 @@
+:root {
+  --font-family: 'Fraunces', serif;
+  --font-family2: 'Montserrat', sans-serif;
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
