@@ -60,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
+  margin: 1rem;
 }
 .price__new {
   font-family: var(--fraunces);
@@ -69,7 +70,7 @@ body {
 }
 .price__old {
   font-family: var(--montserrat);
-  color: var(--very-dark-blue);
+  color: var(--dark-grayish-blue);
   text-decoration: line-through;
   font-size: 1rem;
   margin: 0 10px;
