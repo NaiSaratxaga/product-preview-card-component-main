@@ -75,21 +75,23 @@ body {
   font-size: 1rem;
   margin: 0 10px;
 }
-
+.container-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .button {
+  font-family: var(--montserrat);
   padding: 12px;
   margin: 10px 0;
-  width: 100%;
+  width: 85%;
   color: var(--white);
   background-color: var(--dark-cyan);
-  justify-content: center;
   border: none;
-  display: flex;
-  align-items: center;
   border-radius: 5px;
 }
 .button img {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .button:hover {
   background-color: var(--dark-green-hover);
