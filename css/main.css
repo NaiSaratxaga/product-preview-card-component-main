@@ -87,10 +87,9 @@ body {
 }
 .button {
   font-family: var(--montserrat);
-  font-weight: 700;
   color: var(--white);
   padding: 0.75rem;
-  margin: 0.625rem 0;
+  margin: 0 0 1.5rem 0;
   width: 85%;
   background-color: var(--dark-cyan);
   border: none;
@@ -115,4 +114,28 @@ body {
 .attribution__link {
   color: var(--pink-link);
   text-decoration: none;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 18rem 18rem;
+    justify-content: center;
+    padding: 3rem;
+  }
+  .container-info {
+    border-radius: 0;
+    border-top-right-radius: 0.71rem;
+    border-bottom-right-radius: 0.71rem;
+  }
+
+  .image-product {
+    background-image: url('../images/image-product-desktop.jpg');
+    height: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    border-top-left-radius: 0.71rem;
+    border-bottom-left-radius: 0.71rem;
+  }
 }
