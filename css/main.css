@@ -20,21 +20,21 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   margin: 0 auto;
 }
 
 .image-product {
   width: 100%;
-  height: 220px;
+  height: 13.75rem;
   background-image: url('../images/image-product-mobile.jpg');
   background-size: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0.625rem 0.625rem 0 0;
 }
 
 .container-info {
   background-color: var(--white);
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 0.625rem 0.625rem;
 }
 .container-info__section {
   margin: 1.5rem;
@@ -44,16 +44,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-size: 0.8rem;
+  font-weight: 700;
   color: var(--dark-grayish-blue);
 }
 .title {
-  font-size: 2rem;
-  color: var(--very-dark-blue);
   font-family: var(--fraunces);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--very-dark-blue);
 }
 .paragraph {
   font-family: var(--montserrat);
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
   color: var(--dark-grayish-blue);
 }
 .price {
@@ -64,17 +67,19 @@ body {
 }
 .price__new {
   font-family: var(--fraunces);
-  color: var(--dark-cyan);
   font-size: 2rem;
-  margin: 0 10px;
+  font-weight: 700;
+  color: var(--dark-cyan);
+  margin: 0 0.625rem;
 }
 .price__old {
   font-family: var(--montserrat);
+  font-size: 1rem;
   color: var(--dark-grayish-blue);
   text-decoration: line-through;
-  font-size: 1rem;
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
+/* btn */
 .container-btn {
   display: flex;
   flex-direction: column;
@@ -82,13 +87,14 @@ body {
 }
 .button {
   font-family: var(--montserrat);
-  padding: 12px;
-  margin: 10px 0;
-  width: 85%;
+  font-weight: 700;
   color: var(--white);
+  padding: 0.75rem;
+  margin: 0.625rem 0;
+  width: 85%;
   background-color: var(--dark-cyan);
   border: none;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 .button img {
   margin-right: 1rem;
@@ -98,12 +104,12 @@ body {
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
-
 /* footer */
 .attribution {
-  margin-top: 1.5rem;
-  text-align: center;
   font-family: var(--montserrat);
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.5rem;
 }
 
 .attribution__link {
